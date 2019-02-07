@@ -74,12 +74,12 @@ func checkAnswer(questionAnswer: Bool) {
         let correctAnswer = allQuestions.list[questionNumber ].answer
         if (correctAnswer == answerPicked)
         {
-            print("correct")
+            
+            ProgressHud.showSucess("correct")
             score  += 1
         }
         else {
-            print("incorrect")
-            
+              ProgressHud.showError("incorrect")
         }
     }
     
