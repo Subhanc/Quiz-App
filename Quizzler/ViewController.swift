@@ -75,11 +75,11 @@ func checkAnswer(questionAnswer: Bool) {
         if (correctAnswer == answerPicked)
         {
             
-            ProgressHud.showSucess("correct")
+//            ProgressHud.showSucess("correct")
             score  += 1
         }
         else {
-              ProgressHud.showError("incorrect")
+//              ProgressHud.showError("incorrect")
         }
     }
     
